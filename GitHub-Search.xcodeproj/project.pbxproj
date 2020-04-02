@@ -3,10 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D0F324124368F2C00D84CCE /* AsynchronousImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0F324024368F2C00D84CCE /* AsynchronousImageView.swift */; };
+		4D2FD1BA24369339001E9D43 /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2FD1B924369339001E9D43 /* LoginScreen.swift */; };
+		4D51E960243665FB00F753CD /* SearchUserViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D51E95F243665FB00F753CD /* SearchUserViewModel.swift */; };
+		4D545AED2436674000CBBCDF /* SearchUserBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D545AEC2436674000CBBCDF /* SearchUserBar.swift */; };
+		4D8E66B124368FFA00FC40AA /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8E66B024368FFA00FC40AA /* ImageLoader.swift */; };
+		4D92EAED2436616600F4F929 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D92EAEC2436616600F4F929 /* TabBar.swift */; };
+		4D9EBA88243667C1003BE937 /* SearchUserRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9EBA87243667C1003BE937 /* SearchUserRow.swift */; };
+		4DB169E6243666620036CC22 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB169E5243666620036CC22 /* User.swift */; };
 		4DCA546A24365231005D4DAA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCA546924365231005D4DAA /* AppDelegate.swift */; };
 		4DCA546C24365232005D4DAA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCA546B24365232005D4DAA /* SceneDelegate.swift */; };
 		4DCA546E24365232005D4DAA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCA546D24365232005D4DAA /* ContentView.swift */; };
@@ -15,6 +23,13 @@
 		4DCA547624365233005D4DAA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DCA547424365233005D4DAA /* LaunchScreen.storyboard */; };
 		4DCA548124365233005D4DAA /* GitHub_SearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCA548024365233005D4DAA /* GitHub_SearchTests.swift */; };
 		4DCA548C24365233005D4DAA /* GitHub_SearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DCA548B24365233005D4DAA /* GitHub_SearchUITests.swift */; };
+		4DD89E552436915300F0749E /* ApplicationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD89E542436915300F0749E /* ApplicationScreen.swift */; };
+		4DD89E582436922B00F0749E /* SwiftUIX in Frameworks */ = {isa = PBXBuildFile; productRef = 4DD89E572436922B00F0749E /* SwiftUIX */; };
+		4DDD3FA22436656000F540F8 /* SearchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDD3FA12436656000F540F8 /* SearchScreen.swift */; };
+		4DDF66F0243692D7005C7282 /* SettingsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDF66EF243692D7005C7282 /* SettingsScreen.swift */; };
+		4DED267B243661E300D8C917 /* NavigationState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DED267A243661E300D8C917 /* NavigationState.swift */; };
+		4DFDF2BF243666A600766EF7 /* SearchUserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DFDF2BE243666A600766EF7 /* SearchUserResponse.swift */; };
+		4DFEF36A243695EA00E3B5E8 /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DFEF369243695EA00E3B5E8 /* Icons.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +50,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D0F324024368F2C00D84CCE /* AsynchronousImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsynchronousImageView.swift; sourceTree = "<group>"; };
+		4D2FD1B924369339001E9D43 /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
+		4D51E95F243665FB00F753CD /* SearchUserViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUserViewModel.swift; sourceTree = "<group>"; };
+		4D545AEC2436674000CBBCDF /* SearchUserBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUserBar.swift; sourceTree = "<group>"; };
+		4D8E66B024368FFA00FC40AA /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		4D92EAEC2436616600F4F929 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		4D9EBA87243667C1003BE937 /* SearchUserRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUserRow.swift; sourceTree = "<group>"; };
+		4DB169E5243666620036CC22 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		4DCA546624365231005D4DAA /* GitHub-Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GitHub-Search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DCA546924365231005D4DAA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DCA546B24365232005D4DAA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +72,12 @@
 		4DCA548724365233005D4DAA /* GitHub-SearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GitHub-SearchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DCA548B24365233005D4DAA /* GitHub_SearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHub_SearchUITests.swift; sourceTree = "<group>"; };
 		4DCA548D24365233005D4DAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DD89E542436915300F0749E /* ApplicationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationScreen.swift; sourceTree = "<group>"; };
+		4DDD3FA12436656000F540F8 /* SearchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchScreen.swift; sourceTree = "<group>"; };
+		4DDF66EF243692D7005C7282 /* SettingsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsScreen.swift; sourceTree = "<group>"; };
+		4DED267A243661E300D8C917 /* NavigationState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationState.swift; sourceTree = "<group>"; };
+		4DFDF2BE243666A600766EF7 /* SearchUserResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUserResponse.swift; sourceTree = "<group>"; };
+		4DFEF369243695EA00E3B5E8 /* Icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icons.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DD89E582436922B00F0749E /* SwiftUIX in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +106,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D51E95E243665E000F753CD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4D51E95F243665FB00F753CD /* SearchUserViewModel.swift */,
+				4DB169E5243666620036CC22 /* User.swift */,
+				4DFDF2BE243666A600766EF7 /* SearchUserResponse.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		4D92EAEB2436613800F4F929 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				4D92EAEC2436616600F4F929 /* TabBar.swift */,
+				4D545AEC2436674000CBBCDF /* SearchUserBar.swift */,
+				4D8E66B024368FFA00FC40AA /* ImageLoader.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		4D9EBA86243667AB003BE937 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4D9EBA87243667C1003BE937 /* SearchUserRow.swift */,
+				4D0F324024368F2C00D84CCE /* AsynchronousImageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		4DCA545D24365231005D4DAA = {
 			isa = PBXGroup;
 			children = (
@@ -99,10 +158,16 @@
 		4DCA546824365231005D4DAA /* GitHub-Search */ = {
 			isa = PBXGroup;
 			children = (
+				4D9EBA86243667AB003BE937 /* Views */,
+				4D51E95E243665E000F753CD /* Models */,
+				4DDD3FA02436654800F540F8 /* Screens */,
+				4DED2679243661C100D8C917 /* State */,
+				4D92EAEB2436613800F4F929 /* Components */,
 				4DCA546924365231005D4DAA /* AppDelegate.swift */,
 				4DCA546B24365232005D4DAA /* SceneDelegate.swift */,
 				4DCA546D24365232005D4DAA /* ContentView.swift */,
 				4DCA546F24365233005D4DAA /* Assets.xcassets */,
+				4DFEF369243695EA00E3B5E8 /* Icons.xcassets */,
 				4DCA547424365233005D4DAA /* LaunchScreen.storyboard */,
 				4DCA547724365233005D4DAA /* Info.plist */,
 				4DCA547124365233005D4DAA /* Preview Content */,
@@ -136,6 +201,25 @@
 			path = "GitHub-SearchUITests";
 			sourceTree = "<group>";
 		};
+		4DDD3FA02436654800F540F8 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				4DDD3FA12436656000F540F8 /* SearchScreen.swift */,
+				4DD89E542436915300F0749E /* ApplicationScreen.swift */,
+				4DDF66EF243692D7005C7282 /* SettingsScreen.swift */,
+				4D2FD1B924369339001E9D43 /* LoginScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		4DED2679243661C100D8C917 /* State */ = {
+			isa = PBXGroup;
+			children = (
+				4DED267A243661E300D8C917 /* NavigationState.swift */,
+			);
+			path = State;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -152,6 +236,9 @@
 			dependencies = (
 			);
 			name = "GitHub-Search";
+			packageProductDependencies = (
+				4DD89E572436922B00F0749E /* SwiftUIX */,
+			);
 			productName = "GitHub-Search";
 			productReference = 4DCA546624365231005D4DAA /* GitHub-Search.app */;
 			productType = "com.apple.product-type.application";
@@ -224,6 +311,9 @@
 				Base,
 			);
 			mainGroup = 4DCA545D24365231005D4DAA;
+			packageReferences = (
+				4DD89E562436922B00F0749E /* XCRemoteSwiftPackageReference "SwiftUIX" */,
+			);
 			productRefGroup = 4DCA546724365231005D4DAA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -242,6 +332,7 @@
 			files = (
 				4DCA547624365233005D4DAA /* LaunchScreen.storyboard in Resources */,
 				4DCA547324365233005D4DAA /* Preview Assets.xcassets in Resources */,
+				4DFEF36A243695EA00E3B5E8 /* Icons.xcassets in Resources */,
 				4DCA547024365233005D4DAA /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,7 +360,20 @@
 			files = (
 				4DCA546A24365231005D4DAA /* AppDelegate.swift in Sources */,
 				4DCA546C24365232005D4DAA /* SceneDelegate.swift in Sources */,
+				4D0F324124368F2C00D84CCE /* AsynchronousImageView.swift in Sources */,
+				4D545AED2436674000CBBCDF /* SearchUserBar.swift in Sources */,
 				4DCA546E24365232005D4DAA /* ContentView.swift in Sources */,
+				4D2FD1BA24369339001E9D43 /* LoginScreen.swift in Sources */,
+				4D9EBA88243667C1003BE937 /* SearchUserRow.swift in Sources */,
+				4DFDF2BF243666A600766EF7 /* SearchUserResponse.swift in Sources */,
+				4D92EAED2436616600F4F929 /* TabBar.swift in Sources */,
+				4DB169E6243666620036CC22 /* User.swift in Sources */,
+				4D51E960243665FB00F753CD /* SearchUserViewModel.swift in Sources */,
+				4DD89E552436915300F0749E /* ApplicationScreen.swift in Sources */,
+				4DED267B243661E300D8C917 /* NavigationState.swift in Sources */,
+				4DDD3FA22436656000F540F8 /* SearchScreen.swift in Sources */,
+				4DDF66F0243692D7005C7282 /* SettingsScreen.swift in Sources */,
+				4D8E66B124368FFA00FC40AA /* ImageLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -594,6 +698,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4DD89E562436922B00F0749E /* XCRemoteSwiftPackageReference "SwiftUIX" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftUIX/SwiftUIX";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4DD89E572436922B00F0749E /* SwiftUIX */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4DD89E562436922B00F0749E /* XCRemoteSwiftPackageReference "SwiftUIX" */;
+			productName = SwiftUIX;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4DCA545E24365231005D4DAA /* Project object */;
 }
