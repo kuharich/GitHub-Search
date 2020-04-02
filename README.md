@@ -4,4 +4,4 @@ API: https://developer.github.com/v3/ .
 
 The first screen will contain a search bar that can search through any user on the GitHub website
 at the top with a list of results underneath. Each item should contain the avatar image and the username. 
-The list view shall not be paginated.
+The list view should not be paginated.
