@@ -7,5 +7,9 @@ at the top with a list of results underneath. Each item should contain the avata
 The list view should not be paginated.
 
 <p align="center">
-<img src="https://github.com/ra1028/SwiftUI-Combine/blob/master/assets/sample.png" height="550" width="250">
+<img src="https://github.com/ra1028/SwiftUI-Combine/blob/master/assets/sample.png" height="500" width="250">
+</p>
+
+<p align="center">
+<img src="https://github.com/khoren93/SwiftHub/blob/master/screenshots/05_search_user_screen.png" height="500" width="250">
 </p>
