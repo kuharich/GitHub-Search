@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct SearchUserBar: View {
+struct UserSearchBar: View {
     @Binding var text: String
     @State var action: () -> Void
 

@@ -20,7 +20,7 @@ struct SearchScreen: View {
             VStack {
                 Text("GitHub Search")
                     .font(.system(size: 30))
-                SearchUserBar(text: $viewModel.name) {
+                UserSearchBar(text: $viewModel.name) {
                     self.viewModel.search()
                 }
                 List(viewModel.users) { user in
